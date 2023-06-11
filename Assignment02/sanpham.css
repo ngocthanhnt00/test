@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.col-25{
+    width: 25%;
+    float: left;
+}
+.prod{
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    text-align: center;
+
+}
+.prod .name{
+    font-size: 20px;
+    font-variant: small-caps;
+    color: orangered;
+}
+.prod .image{
+    max-width: 100%;
+}
+.prod .price{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.prod.icon{
+    position: absolute;
+    width: 30px;
+    bottom: 5px;
+    right: 5px;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.prod .new-icon{
+    position: absolute;
+    width: 30%;
+    top: -10px;
+    right: -10px;
+}

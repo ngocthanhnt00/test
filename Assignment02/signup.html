@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signup.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="registration-form">
+        <div class="container">
+
+            <div class="heading">
+                <h4>Sign Up</h4>
+            </div>
+            <div class="form-group">
+                <label for="fullname">Họ và Tên:</label> <br>
+                <input type="text" class="fullname" id="fullname" required" placeholder="Nguyễn Văn A">
+            </div>
+            <div class="form-group1">
+                <label>Giới Tính: </label>
+                <div class="gender">
+                    <input type="radio" value="male" name="gender" checked>Nam
+                </div>
+                <div class="gender">
+                    <input type="radio" value="female" name="gender">Nữ
+                </div>
+            </div>
+            <div class="form-group">
+                <br>
+                <label for="upload-file">Hình Ảnh</label> <br>
+                <input type="file" class="fullname" id="fullname" required>
+            </div>
+            <div class="form-group">
+                <br>
+                <label for="">Quốc Tịch: </label> <br>
+                <select name="language" id="language">
+                    <option value="language">Vietnam</option>
+                    <option value="language">Trung Quoc</option>
+                    <option value="language">United States</option>
+                </select>
+            </div>
+
+            <div class="form-group" id="form-enjoy">
+                <br>
+                <label for="check">Sở Thích: </label>
+                <input type="checkbox"> Thể Thao
+                <input type="checkbox"> Du Lịch
+                <input type="checkbox"> Âm Nhạc
+                <input type="checkbox"> Ẩm Thực
+            </div>
+
+            <div class="form-group id=notes-form">
+                <br>
+                <label for="notes">Ghi chú: </label> <br>
+                <textarea class="formnotes" name="" id="" cols="59" rows="5" placeholder="Nhật Kí Ngày Lang Thang"></textarea>
+            </div>
+            <hr>
+
+            <div class="form-group2">
+                <br>
+                <!-- <input class="sign-in" type="button" value="Đăng Kí">
+                <input src="./dangnhap.html" class="sign-up" type="button" value="Đăng Nhập"> -->
+
+                <a class="sign-in" href="#">Đăng Kí</a>
+                <a class="sign-up" href="./dangnhap.html"> Đăng Nhập</a>
+            </div>
+
+        </div>
+        </form>
+</body>
+
+</html>

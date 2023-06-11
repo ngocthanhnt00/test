@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    font-family: "popppins", sans-serif;
+}
+
+
+
+body {
+    background: url(./img/aurora-1197753.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.container {
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    box-shadow: 0 0 15px #ffffff;
+    margin: 0 auto;
+
+}
+
+
+
+h4 {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgba(38, 255, 0, 0.416);
+    border-radius: 11px;
+}
+
+.form-group input:not(:placeholder-shown) {
+    color: #ffffffd7;
+}
+
+.form-group select:not(:placeholder-shown) {
+    color: #ffffff;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+
+.form-group>label {
+    color: rgba(0, 255, 255, 0.73);
+    margin-left: 4px;
+    font-size: 14px;
+
+}
+
+.form-group1 {
+    margin: 10px 0;
+
+}
+
+.form-group1 .gender {
+    display: inline-block;
+    font-size: 14px;
+    color: #eeeeeee3;
+}
+
+
+
+#language,
+#notes-form,
+.form-group input[type=file],
+.form-group input[type=text] {
+    line-height: 20px;
+    margin: 5px 5px 5px 0;
+    padding: 5px 15px 5px 6px;
+    width: 100%;
+    /* border-radius: 30px; */
+    background-color: #eeeeee01;
+    outline: none;
+    border-top: none;
+    border-bottom: none;
+    border: 1px solid rgba(38, 255, 0, 0.6);
+
+}
+
+
+
+
+.form-group1>label {
+    color: rgba(0, 255, 255, 0.73);
+    margin-left: 4px;
+    font-size: 14px;
+}
+
+
+textarea {
+    background-color: #eeeeee01;
+    outline: none;
+}
+
+
+
+.form-group #language option{
+    background-color:  rgba(0, 255, 170, 0.575);
+    border: none;
+}
+
+.form-group input[type=button] {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    margin: 0px 60px 0 60px;
+    background-color: rgba(0, 174, 255, 0.96);
+}
+
+
+#form-enjoy {
+    color: #eeeeeee3;
+    font-size: small;
+}
+
+
+.form-group textarea:not(:placeholder-shown) {
+    color: #fff;
+}
+
+
+::-webkit-input-placeholder {
+    color: #eeeeeebb;
+}
+
+/* .form-group2 { */
+/* text-align: center; */
+/* } */
+
+
+
+.formnotes {
+    border-radius: 4px;
+    font-size: 12px;
+    padding-left: 6px;
+    
+}
+
+.form-group2 a {
+    background-color: rgba(0, 174, 255, 0.96);
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 10px 10px;
+    margin: 10px 60px;
+}
+
+
+
+.form-group2 a:hover {
+    background-color: rgba(38, 255, 0, 0.416);
+    transition: 0.3s ease-in;
+}

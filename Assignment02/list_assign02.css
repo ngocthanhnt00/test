@@ -1,0 +1,1521 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    line-height: 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+/* Start Header */
+.container .header {
+    height: 44px;
+    background-color: #fff;
+    position: relative;
+}
+
+.container .header ul {
+    position: absolute;
+    right: 0;
+    margin-right: 420px;
+}
+
+.container .header li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.container .header li:hover a {
+    color: rgb(0, 191, 255);
+    border-radius: 4px;
+    background-color: #e8e8e8;
+    transition: 0.2s ease-in-out;
+}
+
+.container .header .heading-title a {
+    color: #000;
+    text-decoration: none;
+    line-height: 44px;
+    font-size: 12px;
+    margin: 8px 18px;
+    padding: 8px 12px;
+}
+
+
+.container .header .language-list {
+    border-radius: 5px;
+    padding: 8px 16px;
+    border-color: #26c82e;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.container .header .test {
+    line-height: 44px;
+    float: right;
+    margin-right: 200px;
+}
+
+/* Begin Header */
+
+
+/* Start Naviation */
+
+.container .nav {
+    width: 100%;
+}
+
+
+
+.container .nav-item {
+    height: 56px;
+    background-color: #f8f8ff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: top 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.container .nav img {
+    width: 133px;
+    height: 47px;
+    margin-left: 140px;
+    padding: 0 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container .nav #search-box {
+    position: absolute;
+    left: 300px;
+    line-height: 56px;
+    display: block;
+}
+
+.container .nav #search-box .frame-box {
+    border-radius: 4px;
+    padding: 6px 10px;
+    border-color: #b004d3;
+    position: static;
+}
+
+
+
+.container .nav #search-box .btn-search1 {
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(27%);
+    font-size: 17px;
+    display: block;
+    top: 30%;
+    left: 88%;
+}
+
+
+
+
+.container .nav #search-box .btn-search2 {
+    display: none;
+}
+
+.container .nav #search-box .btn-search3 {
+    display: none;
+}
+
+.nav .ion-icon {
+    --ionicon-stroke-width: 80px;
+
+}
+
+.container .nav #search-box #cart {
+    display: none;
+    position: static;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(13%);
+    font-size: 24px;
+    left: -51px;
+    --ionicon-stroke-width: 25px;
+}
+
+
+
+
+.container .nav .heading-nav {
+    position: absolute;
+    right: 196px;
+    display: inline-block;
+
+}
+
+.container .nav li {
+    margin-right: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+
+/*---------- Code Short CSS----------- */
+.nav .heading-nav .nav-icon {
+    position: absolute;
+    top: 8px;
+    right: 82px;
+}
+
+.nav .heading-nav #icon4 {
+    position: absolute;
+    top: 10px;
+    right: 74px;
+}
+
+.nav .heading-nav #icon5 {
+    position: absolute;
+    top: 10px;
+    right: 64px;
+}
+
+/* ------------------------------------ */
+
+.nav .heading-nav li {
+
+    padding: 5px 12px;
+    padding-left: 30px;
+}
+
+
+.container .nav li a {
+
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+.container .nav li:hover {
+    border-radius: 5px;
+    background-color: #f7e8be;
+    transition: 0.2s ease;
+}
+
+/* Begin Navigation */
+
+/* Start Aside */
+
+.container .aside {
+    width: 20%;
+    float: left;
+    height: 1100px;
+    background-color: #04a3d3;
+}
+
+.container .aside h4 {
+    color: #fff;
+    padding: 16px;
+    font-size: 16px;
+}
+
+
+.container .aside .menu-list {
+    padding: 16px;
+    margin-left: 10px;
+    clear: both;
+}
+
+.container .aside li {
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.container .aside .price-list {
+    margin-left: 20px;
+}
+
+.container .aside a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.container .aside li:hover a {
+    color: #15ff00;
+}
+
+/* Begin aside */
+
+
+/* Start Article */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.article {
+    max-width: 80%;
+    max-height: auto;
+    margin: 0 auto;
+    float: right;
+
+
+}
+
+
+.article .flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    clear: both;
+
+
+}
+
+.col-25 {
+    height: 348px;
+    display: flex;
+    float: right;
+    flex-basis: 23%;
+    margin: 10px 0;
+    padding: 20px 10px 10px;
+    margin: 3px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #eae8e8;
+}
+
+.prod {
+    clear: both;
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+
+
+}
+
+.prod .name {
+    font-size: 20px;
+    color: #36393b;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.prod .image {
+    max-width: 84%;
+
+}
+
+.prod #ke3tang {
+    max-width: 75%;
+}
+
+.prod .price {
+    bottom: 5px;
+    left: 5px;
+    color: #23b2ed;
+    font-size: 19px;
+    font-weight: 50;
+
+}
+
+.prod .icon {
+    right: 0;
+    bottom: -56px;
+    color: rgba(0, 128, 0, 0.822)
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+
+
+/* CSS support */
+.prod .hot-icon {
+    position: absolute;
+    width: 10%;
+    top: 30px;
+    right: -6px;
+    transform: rotate(28deg);
+}
+
+.prod .new-icon {
+    position: absolute;
+    width: 15%;
+    top: -1px;
+    right: -11px;
+}
+
+/* Begin Article */
+
+
+
+
+/* Start Footer  */
+
+.footer {
+    height: 400px;
+    clear: both;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background-color: #000;
+}
+
+.footer-container {
+
+    background: url(./img/cucquang.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 40px 0;
+    background-color: #00000000;
+    height: 100%;
+}
+
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 0 0 33.33%;
+    margin-bottom: 20px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    margin-bottom: 8px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}
+
+.footer-column {
+    text-align: center;
+    display: list-item;
+}
+
+
+#sup {
+    margin-left: 5px;
+}
+
+
+
+.fb-root {
+    position: relative;
+    bottom: 10px;
+}
+
+.container #search-box {
+    display: none;
+}
+
+/* Begin Footer */
+
+
+
+
+
+/* Responsive Web Design */
+
+
+/*Mobile (Iphone 5) max-width: 320px */
+
+@media only screen and (max-width: 20em) {
+    .header {
+        width: 0;
+    }
+
+    .heading-nav {
+        display: none !important;
+    }
+
+    .container .login {
+        display: none;
+    }
+
+    .container .aside {
+        display: none;
+    }
+
+    .container .header .test {
+        display: none;
+    }
+
+    .container .nav img {
+        width: 110px;
+        height: 42px;
+        margin-left: 7px;
+    }
+
+    .container .nav-item {
+        height: 56px;
+        background-color: #f8f8ff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: top 0.5s ease-in-out;
+        display: flex;
+        align-items: center;
+        z-index: 100;
+        box-shadow: 0 -1px 10px rgba(176, 176, 176, 0.342);
+    }
+
+    .container .nav #search-box .frame-box {
+        display: none;
+    }
+
+    .container .nav #search-box .btn-search1 {
+        position: absolute;
+        display: block;
+        top: -13px;
+        left: -99px;
+        font-size: 20px;
+        transform: translateY(13%);
+    }
+
+    .container .nav #search-box .btn-search2 {
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(-48%);
+        font-size: 20px;
+        display: block;
+        left: -28px;
+        --ionicon-stroke-width: 30px;
+    }
+
+    .container .nav #search-box .btn-search3 {
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(-45%);
+        font-size: 31px;
+        display: block;
+        left: 4px;
+        --ionicon-stroke-width: 25px;
+    }
+
+
+    .container .nav #search-box #cart {
+        display: block;
+        transform: translateY(-49%);
+        font-size: 24px;
+        left: -65px;
+        --ionicon-stroke-width: 25px;
+    }
+
+
+
+    .container #search-box {
+        display: block;
+    }
+
+    .container .search-pc {
+        display: none;
+    }
+
+    .article {
+        max-width: 100%;
+        max-height: auto;
+        margin: 0 auto;
+        /* float: right; */
+    }
+
+
+    .article .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px 0;
+        flex-wrap: wrap;
+        clear: both;
+
+
+    }
+
+
+
+    .col-25 {
+        height: 348px;
+        display: flex;
+        float: right;
+        flex-basis: 50%;
+        margin: 10px 0 -2px;
+        padding: 20px 10px 10px;
+        border: 2px solid #eee;
+        border-radius: 10px;
+        box-shadow: 0 -1px 15px 0 #eae8e8;
+    }
+
+
+
+    .prod {
+        clear: both;
+        position: relative;
+        border-radius: 10px;
+        text-align: center;
+        display: block;
+
+
+    }
+
+    .prod .name {
+        font-size: 20px;
+        color: #36393b;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .prod .image {
+        max-width: 100%;
+
+    }
+
+    .prod .one {
+        margin-top: 20px;
+    }
+
+    .prod .two {
+        margin-top: 44px;
+    }
+
+    .prod .three {
+        margin-top: 42px;
+    }
+    .prod .four {
+        margin-top: 42px;
+    }
+    
+
+    .prod #ke3tang {
+        max-width: 100%;
+    }
+
+    .prod .aomua {
+        margin-top: 42px;
+    }
+
+    .prod .den {
+        margin-top: 42px;
+    }
+
+
+    .prod #aomua {
+        max-width: 101%;
+    }
+    
+
+    .prod #nonkyt {
+        max-width: 98%;
+    }
+
+    .prod .nonkyt {
+        margin-top: 42px;
+    }
+    .prod .dao {
+        margin-top: 8px;
+    }
+
+    .prod .ghe {
+        margin-top: 62px;
+    }
+
+    .prod .thuyen {
+        margin-top: 38px
+    }
+
+    .prod .giapchan {
+        margin-top: 62px;
+    }
+
+    .prod .denpin {
+        margin-top: 38px;
+    }
+
+
+    .prod .price {
+        bottom: 5px;
+        left: 5px;
+        color: #000;
+        font-size: 19px;
+        font-weight: 50;
+
+    }
+
+    .prod .icon {
+        right: 0;
+        bottom: -56px;
+        color: rgba(0, 128, 0, 0.822)
+    }
+
+
+
+
+    .prod .price {
+        position: static;
+        color: #dc5f29;
+        font-size: 16px;
+        font-weight: 510;
+
+    }
+
+    .footer .footer-content {
+        display: block;
+    }
+
+    .footer .footer-column {
+        font-size: 13px;
+
+    }
+
+    .footer .footer-column {
+        display: block;
+
+    }
+
+    .footer .footer-bottom p {
+        font-size: 9px;
+    }
+
+
+    .footer-container {
+        background: url(./img/cucquang.jpg);
+        background-position: center;
+        background-size: 100% 100%;
+        padding: 40px 0;
+        background-color: #00000000;
+        height: 100%;
+    }
+
+
+}
+
+/* Mobile(Iphone 6/7/8) width <= 375px */
+@media only screen and (min-width:  20.0265em) and (max-width: 37.4375em) {
+
+
+    .header {
+        width: 0;
+    }
+
+    .heading-nav {
+        display: none !important;
+    }
+
+    .container .login {
+        display: none;
+    }
+
+    .container .aside {
+        display: none;
+    }
+
+    .container .header .test {
+        display: none;
+    }
+
+    .container .nav img {
+        width: 110px;
+        height: 42px;
+        margin-left: 7px;
+    }
+
+    .container .nav-item {
+        height: 56px;
+        background-color: #f8f8ff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: top 0.5s ease-in-out;
+        display: flex;
+        align-items: center;
+        z-index: 100;
+        box-shadow: 0 -1px 10px rgba(176, 176, 176, 0.342);
+    }
+
+    .container .nav #search-box .frame-box {
+        display: none;
+    }
+
+    .container .nav #search-box .btn-search1 {
+        position: absolute;
+        display: block;
+        top: -13px;
+        left: -99px;
+        font-size: 20px;
+        transform: translateY(13%);
+    }
+
+    .container .nav #search-box .btn-search2 {
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(-48%);
+        font-size: 20px;
+        display: block;
+        left: -28px;
+        --ionicon-stroke-width: 30px;
+    }
+
+    .container .nav #search-box .btn-search3 {
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(-45%);
+        font-size: 31px;
+        display: block;
+        left: 4px;
+        --ionicon-stroke-width: 25px;
+    }
+
+
+    .container .nav #search-box #cart {
+        display: block;
+        transform: translateY(-49%);
+        font-size: 24px;
+        left: -65px;
+        --ionicon-stroke-width: 25px;
+    }
+
+
+
+    .container #search-box {
+        display: block;
+    }
+
+    .container .search-pc {
+        display: none;
+    }
+
+    .article {
+        max-width: 100%;
+        max-height: auto;
+        margin: 0 auto;
+        /* float: right; */
+    }
+
+
+    .article .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px 0;
+        flex-wrap: wrap;
+        clear: both;
+
+
+    }
+
+
+
+    .col-25 {
+        height: 348px;
+        display: flex;
+        float: right;
+        flex-basis: 50%;
+        margin: 10px 0 -2px;
+        padding: 20px 10px 10px;
+        border: 2px solid #eee;
+        border-radius: 10px;
+        box-shadow: 0 -1px 15px 0 #eae8e8;
+    }
+
+
+
+    .prod {
+        clear: both;
+        position: relative;
+        border-radius: 10px;
+        text-align: center;
+        display: block;
+
+
+    }
+
+    .prod .name {
+        font-size: 20px;
+        color: #36393b;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .prod .image {
+        max-width: 100%;
+
+    }
+
+    .prod #ke3tang {
+        max-width: 100%;
+    }
+
+    .prod .aomua {
+        margin-top: 24px;
+    }
+
+    .prod #aomua {
+        max-width: 101%;
+    }
+
+    .prod #nonkyt {
+        max-width: 98%;
+    }
+
+    .prod .nonkyt {
+        margin-top: 32px;
+    }
+
+    .prod .ghe {
+        margin-top: 25px;
+    }
+
+    .prod .giapchan {
+        margin-top: 49px;
+    }
+
+    .prod .denpin {
+        margin-top: 24px;
+    }
+
+
+    .prod .price {
+        bottom: 5px;
+        left: 5px;
+        color: #000;
+        font-size: 19px;
+        font-weight: 50;
+
+    }
+
+    .prod .icon {
+        right: 0;
+        bottom: -56px;
+        color: rgba(0, 128, 0, 0.822)
+    }
+
+
+
+
+    .prod .price {
+        position: static;
+        color: #dc5f29;
+        font-size: 16px;
+        font-weight: 510;
+
+    }
+
+    .footer .footer-content {
+        display: block;
+    }
+
+    .footer .footer-column {
+        font-size: 13px;
+
+    }
+
+    .footer .footer-column {
+        display: block;
+
+    }
+
+    .footer .footer-bottom p {
+        font-size: 9px;
+    }
+
+
+    .footer-container {
+        background: url(./img/cucquang.jpg);
+        background-position: center;
+        background-size: 100% 100%;
+        padding: 40px 0;
+        background-color: #00000000;
+        height: 100%;
+    }
+
+
+
+
+
+
+}
+
+
+/* Iphone 6-7-8 Plus width: >= 407px and max-width: <=414px*/
+@media only screen and (min-width: 25.4375em) and (max-width: 37.4375em) {
+
+    .container .search-pc {
+        display: none;
+    }
+
+    .container .nav #search-box .btn-search3 {
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(-45%);
+        font-size: 31px;
+        display: block;
+        left: 40px;
+        --ionicon-stroke-width: 25px;
+    }
+
+    #search-box .btn-search2 {
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(-48%);
+        font-size: 20px;
+        display: block;
+        left: 10px !important;
+        --ionicon-stroke-width: 30px;
+    }
+
+    #search-box .btn-search1 {
+        position: absolute;
+        display: block;
+        top: -13px;
+        left: -59px !important;
+        font-size: 20px;
+        transform: translateY(13%);
+    }
+
+    .container .nav #search-box #cart {
+        display: block;
+        transform: translateY(-49%);
+        font-size: 24px;
+        left: -26px;
+        --ionicon-stroke-width: 25px;
+    }
+
+    .prod .dao {
+        margin-top: 21px;
+    }
+
+    .prod .nonkyt {
+        margin-top: 26px;
+    }
+
+    .prod .den {
+        margin-top: 21px;
+    }
+
+    .prod .aomua {
+        margin-top: 21px;
+    }
+
+}
+
+
+/* Small Tablet width: >= 600px and width: <= 768px */
+@media only screen and (min-width: 37.5em) and (max-width: 47.9375em) {
+
+    .header {
+        width: 0;
+    }
+
+    .heading-nav {
+        display: none !important;
+    }
+
+    .container .login {
+        display: none;
+    }
+
+    .container .aside {
+        display: none;
+    }
+
+    .container .header .test {
+        display: none;
+    }
+
+    .container .nav img {
+        width: 110px;
+        height: 42px;
+        margin-left: 7px;
+    }
+
+    .container .nav-item {
+        height: 56px;
+        background-color: #f8f8ff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: top 0.5s ease-in-out;
+        display: flex;
+        align-items: center;
+        z-index: 100;
+        box-shadow: 0 -1px 10px rgba(176, 176, 176, 0.342);
+    }
+
+    .container .nav #search-box .frame-box {
+        display: none;
+    }
+
+    .container #search-box .btn-search1 {
+        position: absolute;
+        display: block;
+        top: -13px !important;
+        left: 120px !important;
+        font-size: 20px !important;
+        transform: translateY(13%);
+    }
+
+    .container .nav #search-box .btn-search2 {
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(-48%);
+        font-size: 20px;
+        display: block;
+        left: 194px;
+        --ionicon-stroke-width: 30px;
+    }
+
+    .container .nav #search-box .btn-search3 {
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(-45%);
+        font-size: 31px;
+        display: block !important;
+        left: 228px;
+        --ionicon-stroke-width: 25px;
+    }
+
+
+    .container .nav #search-box #cart {
+        display: block;
+        transform: translateY(-49%);
+        font-size: 24px;
+        left: 154px;
+        --ionicon-stroke-width: 25px;
+    }
+
+
+
+    .container #search-box {
+        display: block;
+    }
+
+    .container .search-pc {
+        display: none;
+    }
+
+    .article {
+        max-width: 100%;
+        max-height: auto;
+        margin: 0 auto;
+        /* float: right; */
+    }
+
+
+    .article .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px 0;
+        flex-wrap: wrap;
+        clear: both;
+
+
+    }
+
+
+
+    .col-25 {
+        height: 348px;
+        display: flex;
+        float: right;
+        flex-basis: 50%;
+        margin: 10px 0 -2px;
+        padding: 20px 10px 10px;
+        border: 2px solid #eee;
+        border-radius: 10px;
+        box-shadow: 0 -1px 15px 0 #eae8e8;
+    }
+
+
+
+    .prod {
+        clear: both;
+        position: relative;
+        border-radius: 10px;
+        text-align: center;
+        display: block;
+
+
+    }
+
+    .prod .name {
+        font-size: 20px;
+        color: #36393b;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .prod .image {
+        max-width: 82%;
+
+    }
+
+    .prod #ke3tang {
+        max-width: 82%;
+    }
+
+    .prod .aomua {
+        margin-top: 24px;
+    }
+
+    .prod #aomua {
+        max-width: 72%;
+    }
+
+    .prod #nonkyt {
+        max-width: 69%;
+    }
+
+    .prod .nonkyt {
+        margin-top: 32px;
+    }
+
+    .prod .ghe {
+        margin-top: 0px;
+    }
+
+    .prod .giapchan {
+        margin-top: 0px;
+    }
+
+    .prod .denpin {
+        margin-top: 0px;
+    }
+
+
+    .prod .price {
+        bottom: 5px;
+        left: 5px;
+        color: #000;
+        font-size: 19px;
+        font-weight: 50;
+
+    }
+
+    .prod .icon {
+        right: 0;
+        bottom: -56px;
+        color: rgba(0, 128, 0, 0.822)
+    }
+
+
+
+
+    .prod .price {
+        position: static;
+        color: #dc5f29;
+        font-size: 16px;
+        font-weight: 510;
+
+    }
+
+    .footer .footer-content {
+        display: block;
+    }
+
+    .footer .footer-column {
+        font-size: 13px;
+
+    }
+
+    .footer .footer-column {
+        display: block;
+
+    }
+
+    .footer .footer-bottom p {
+        font-size: 9px;
+    }
+
+
+    .footer-container {
+        background: url(./img/cucquang.jpg);
+        background-position: center;
+        background-size: 100% 100%;
+        padding: 40px 0;
+        background-color: #00000000;
+        height: 100%;
+    }
+
+
+
+}
+
+
+
+
+/* Ipad width: >=  740px and max-width: <= 768px*/
+@media only screen and (min-width: 46.25em) and (max-width: 48em) {
+    .heading-nav {
+        display: none !important;
+    }
+
+    .container .test {
+        display: block;
+    }
+
+    .container .header .language-list {
+        border-radius: 5px;
+        padding: 4px 16px;
+        border-color: #26c82e;
+        border-width: 1px;
+        border-style: solid;
+    }
+
+    .container .login {
+        display: none;
+    }
+
+    .container .login {
+        display: none;
+    }
+
+    .container .aside {
+        display: none;
+    }
+
+
+
+    .container .nav img {
+        width: 133px;
+        height: 47px;
+        margin-left: 40px;
+        padding: 0px 15px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        /* left: 0; */
+        transform: translateY(-50%);
+    }
+
+
+
+    .container .nav #search-box .frame-box {
+        border-radius: 4px;
+        padding: 6px 10px;
+        border-color: #b004d3;
+        position: relative;
+        right: 104px;
+    }
+
+    .container .nav #search-box .btn-search {
+        display: none;
+    }
+
+    .container .nav #search-box .btn-search1 {
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(26%);
+        font-size: 19px;
+        display: block;
+        top: 26%;
+        left: 28%;
+    }
+
+    .container .nav #search-box .btn-search2 {
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(-48%);
+        font-size: 20px;
+        display: none;
+        top: 48%;
+        left: 194px;
+        --ionicon-stroke-width: 30px;
+    }
+
+    .container .nav #search-box .btn-search3 {
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(-45%);
+        font-size: 43px;
+        display: block !important;
+        top: 45%;
+        left: 382px;
+        --ionicon-stroke-width: 25px;
+        color: rgba(38, 38, 38, 0.663)
+    }
+
+
+    .container .nav #search-box #cart {
+        display: none;
+        transform: translateY(-20%);
+        top: 40%;
+        font-size: 24px;
+        left: 154px;
+        --ionicon-stroke-width: 25px;
+    }
+
+    .article {
+        max-width: 100%;
+        max-height: auto;
+        margin: 0 auto;
+        /* float: right; */
+    }
+
+    .article .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px 0;
+        flex-wrap: wrap;
+        clear: both;
+
+
+    }
+
+
+
+    .col-25 {
+        height: 348px;
+        display: flex;
+        float: right;
+        flex-basis: 46%;
+        margin: 10px 0 -2px;
+        padding: 20px 10px 10px;
+        border: 2px solid #eee;
+        border-radius: 10px;
+        box-shadow: 0 -1px 15px 0 #eae8e8;
+    }
+
+
+    .prod .image {
+        max-width: 68%;
+    }
+
+    .prod #ke3tang {
+        max-width: 68%;
+    }
+
+    .prod .dao {
+        margin-top: 20px;
+    }
+
+    .prod .giapchan {
+        margin-top: 20px;
+    }
+
+    .prod #aomua {
+        max-width: 68%;
+    }
+
+    .prod #nonkyt {
+        max-width: 65%;
+    }
+
+    .prod .ghe {
+        margin-top: -1px;
+    }
+}
+
+/* IPad pro: min-width: >= 768px and max-width: <= 1024px */
+@media only screen and (min-width: 48em) and (max-width: 64em) {
+    .container .nav img {
+        width: 133px;
+        height: 47px;
+        margin-left: 100px;
+        padding: 0 15px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .container .header .language-list {
+        border-radius: 5px;
+        padding: 8px 16px;
+        border-color: #26c82e;
+        border-width: 1px;
+        border-style: solid;
+        margin-right: -74px;
+    }
+
+    .container .header ul {
+        position: absolute;
+        right: 0;
+        margin-right: 335px;
+    }
+
+    .container .nav .heading-nav {
+        position: absolute;
+        right: -3px;
+        display: inline-block;
+    }
+
+    .container .nav li {
+        margin-right: 2px;
+        margin-left: 2px;
+        display: inline-block;
+        list-style-type: none;
+        position: relative;
+    }
+
+    .nav .heading-nav li {
+        padding: 5px 12px !important;
+        padding-left: 30px !important;
+    }
+
+
+
+    .container .nav #search-box .frame-box {
+        border-radius: 4px;
+        padding: 6px 10px;
+        border-color: #b004d3;
+        position: relative;
+        right: 28%;
+    }
+
+    .container .nav #search-box .btn-search1 {
+        cursor: pointer;
+        position: absolute;
+        transform: translateY(24%);
+        font-size: 16px;
+        display: block;
+        top: 32%;
+        left: 59%;
+    }
+}
